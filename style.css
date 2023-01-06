@@ -1,0 +1,181 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{min-height: 100vh;}
+
+
+header{
+	position: relative;
+	right: 0;
+	left: 0;
+	top: 0;
+	padding: 0px 7%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+
+}
+
+
+.lefthead ul{list-style: none;}
+
+header .navbar ul li{
+	position: relative;
+	float: left;
+}
+
+header .lefthead ul li a{
+	font-size: 15px;
+	padding: 20px;
+	color: black;
+	display: block;
+
+}
+header .lefthead ul li a:hover{
+	cursor: pointer;
+	background-color: lightgray;
+	color: black;
+}
+
+header .lefthead ul li ul{
+	position: absolute;
+	left: 0;
+	width: 100px;
+	background-color: #fff;
+	display: none;
+}
+
+header .lefthead ul li ul li{
+	width: 100%;
+	border-top: 1px solid black;
+}
+
+header .lefthead ul li ul li ul{
+	left: 200px;
+	top: 0;
+}
+header .lefthead ul li:hover>ul,
+header .navbar ul li:focus-within>ul{display: initial;}
+
+.log{
+	font-size: 15px;
+	width: 5rem;
+	text-transform: none;
+	background-color: white;
+	border: none;
+	cursor: pointer;
+}
+.reg{
+	font-size: 15px;
+	width: 5rem;
+	text-transform: none;
+	background-color: white;
+	border: 0.5px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 4vh;
+}
+
+
+.hero{}
+.hero-image{}
+.hero-text{text-align: left;text-transform: none;}
+.hero-header{
+	font-size: 3.5rem;
+	color: black;
+	left: 0;
+	text-align: left;
+	font-weight: bolder;
+}
+.hero-lower{
+	margin: 0 0 10%;
+	color: gray;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: left;
+
+}
+.learn{
+	width: 10rem;
+	height: 3rem;
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	text-transform: none;
+}
+.learn:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+.client-list ul{
+	text-decoration: none;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: left;
+	margin: 2rem;
+    padding: 1rem;
+    left: 0;
+
+}
+
+@media(min-width:600px){
+
+	.hero{
+		margin: 10rem;
+		display: flex;
+		flex-direction: row-reverse;
+	}
+    .hero-image{
+    	width: 20rem;
+    	height: 50vh;
+    }
+}
+
+
+@media(max-width: 600px){
+
+   header{padding: 20px;}
+   .learn{display: none;}
+   .reg{display: none;}
+
+   header {display: initial;}
+
+   header .lefthead{
+   	position: absolute;
+   	top: 100%;
+   	right: 0;
+   	background-color: white;
+   	border-top: 1px solid black;
+   	display: none;
+   }
+
+   header .lefthead ul li{
+   	width: 100%;
+   	text-align: right;
+   }
+
+   header .lefthead ul li ul{position: relative; width: 100%;}
+   header .lefthead ul li ul li{background-color: #eee;}
+   header .lefthead ul li ul li ul{width: 100%; left: 0;}
+
+.hero{
+	margin: 5rem;
+	width: 100%;
+
+}
+
+.hero-text{
+	margin: 10%;
+}
+.hero-image{height: 20rem; width: 70%;}
+
+
