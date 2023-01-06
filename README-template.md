@@ -37,7 +37,7 @@ Add a screenshot of your solution. Crop/optimize/edit your image however you lik
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/F3Nwuff/HCI-Week-12)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://f3nwuff.github.io/HCI-Week-12/)
 
 ## My process
 
@@ -79,6 +79,8 @@ i would also like to continue learning css and dropdown to figure out and fix th
 
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
-https://www.youtube.com/watch?v=EaMuiYtzB8c
-https://www.youtube.com/watch?v=YaT-i5Vpfe4
+https://www.youtube.com/watch?v=EaMuiYtzB8c   
+
+https://www.youtube.com/watch?v=YaT-i5Vpfe4   
+
 https://www.youtube.com/watch?v=fyeCYZofFmM
