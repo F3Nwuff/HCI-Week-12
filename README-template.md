@@ -36,7 +36,7 @@ Add a screenshot of your solution. Crop/optimize/edit your image however you lik
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/F3Nwuff/HCI-Week-12)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
